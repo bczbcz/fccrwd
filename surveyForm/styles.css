@@ -1,0 +1,59 @@
+body{
+    width:100%;
+    height: 100vh;
+    background-color: #8EC5FC;
+    background-image:     linear-gradient(62deg, #8EC5FC 0%, #E0C3FC 100%);
+    font-family:Georgia;
+    font-size:18px;
+    color:darkblue;
+  
+  }
+  h1{
+    text-align:center;
+    color: darkblue;
+  }
+  #description{
+    text-align:center;
+    
+  }
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  label{
+    display:block;
+  }
+  fieldset{
+    border: none;
+    padding:15px 0 15px 0;
+    margin: 0;
+  }
+  input, textarea, select{
+    width:100%;
+    min-height:2.5em;
+    margin-top:.5em;
+    margin-bottom: .5em
+  }
+  .need-align{
+    width: unset;
+    vertical-align: middle;
+  }
+  .myline{
+    border: solid 2px lightblue;
+    width:80%;
+  }
+  p{
+    margin-bottom:10px;
+  }
+  input[type="submit"]{
+    width:80%;
+    display:block;
+    margin:15px auto;
+    border: solid 2px darkblue;
+    background-color: lightblue;
+    color: darkblue;
+    font-size:18px;
+  }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Survey Form</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Let's us know you</p>
+    <form id="survey-form">
+      <hr class="myline">
+      <fieldset>
+      <label id="name-label">Your Name: <input id="name" type="text" placeholder="Enter Your Name" required></label>
+      <label id="email-label">Email address:<input id="email" type="email" placeholder="Enter your email" required></label>
+      <label id="number-label">How old are you?<input id="number" type="number" min="18" max="35" placeholder="18-35"></label>
+        </fieldset>
+        <hr class="myline">
+        <fieldset>
+          <p>Favourite OS?</p>
+          <select id="dropdown">
+            <option>(Choose your platform)</option>
+            <option>Linux</option>
+            <option>MacOS</option>
+            <option>Windows</option>
+            </select>
+            <p>Most prefered device:</p>
+            <label><input type="radio" name="device" value="PC" class="need-align"> PC</label>
+            <label><input type="radio" name="device" value="mobile" class="need-align"> Mobile</label>
+            <label><input type="radio" name="device" value="laptop" class="need-align"> Laptop</label>
+          </fieldset>
+          <hr class="myline">
+          <fieldset>
+            <p>Types of software u use:</p>
+            <label><input type="checkbox" value="1" class="need-align"> Text Processors</label>
+            <label><input type="checkbox" value="2" class="need-align"> Spreadsheets</label>
+            <label><input type="checkbox" value="3" class="need-align"> Video Editors</label>
+            <label><input type="checkbox" value="4" class="need-align"> Photo Editors</label>
+            
+          </fieldset>
+          <hr class="myline">
+          <p>Tell us something about you:</p>
+              <textarea id="bio" cols="30" rows="10">Enter your bio :)</textarea>
+            
+          <input type="submit" id="submit">
+      </form>
+  </body>
+</html>
